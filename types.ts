@@ -3,6 +3,6 @@ export type ProjectCardProps = {
   description: string;
   github: string | null;
   website: string | null;
-  pictures: string | null;
+  reading: string | null;
   tools: string[];
 };

@@ -20,7 +20,7 @@ export default function Header() {
 
           <div className="mt-4">
             <Link
-              href="/path-to-your-resume.pdf"
+              href="https://docs.google.com/document/d/130Ffr5eRAU5IUD7nzM5rBWSWMxuwB5d6SavI6d1BKyk/edit?tab=t.0"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-gray-500 bg-purple-200 px-4 py-2 rounded-md hover:bg-purple-300 transition duration-300"

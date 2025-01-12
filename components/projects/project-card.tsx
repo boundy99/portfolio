@@ -1,13 +1,13 @@
 import Link from "next/link";
 import {ProjectCardProps} from "@/types";
-import {Github, Globe, ImageIcon} from "lucide-react";
+import {Github, Globe, BookOpen} from "lucide-react";
 
 export default function ProjectCard({
   title,
   description,
   github,
   website,
-  pictures,
+  reading,
   tools,
 }: ProjectCardProps) {
   return (
@@ -35,16 +35,16 @@ export default function ProjectCard({
         )}
       </div>
 
-      {pictures && (
+      {reading && (
         <div className="mb-4">
           <Link
-            href={pictures}
+            href={reading}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 text-white hover:text-gray-200"
           >
-            <ImageIcon size={20} />
-            <span className="text-sm font-medium">View Pictures</span>
+            <BookOpen size={20} />
+            <span className="text-sm font-medium">Read article</span>
           </Link>
         </div>
       )}

@@ -1,3 +1,4 @@
+import {MoveUpRight} from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -19,16 +20,18 @@ export default function ExperienceCard({
   tools,
 }: ExperienceCardProps) {
   return (
-    <div className=" mb-4">
+    <div className="mb-4">
       <h3 className="text-xl font-semibold mb-2">
         {title} at{" "}
         <Link
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-purple-500 hover:text-purple-700"
+          className="text-purple-500 underline inline-flex items-center"
         >
           {company}
+
+          <MoveUpRight />
         </Link>
       </h3>
       <p className="text-sm text-gray-500 mb-2">{duration}</p>
