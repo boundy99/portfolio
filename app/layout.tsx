@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${roboto.variable} ${sourceCodePro.variable} antialiased`}
       >
-        <div className="py-24 h-screen">{children}</div>
+        <div>{children}</div>
       </body>
     </html>
   );
