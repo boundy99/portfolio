@@ -1,0 +1,28 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  background-image: url("/background.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+} */
+
+.embla {
+  position: relative;
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.embla__slide {
+  flex-shrink: 0;
+  width: 100%;
+}
