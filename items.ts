@@ -3,17 +3,10 @@ export const experiences = [
     title: "Founder and Lead Developer",
     company: "Omniscolaire",
     link: "/omniscolaire",
-    duration: "01/2023 – Now",
+    duration: "09/2024 – Now",
     responsibilities:
-      "Designed and architected a learning platform, integrated authentication and data systems with NextAuth.js, Prisma, and PostgreSQL, and implemented CI/CD pipelines using GitHub Actions, Jest, and Cypress. Collaborated with teams to ensure security compliance and business logic integration.",
-    tools: [
-      "NextAuth.js",
-      "Prisma",
-      "PostgreSQL",
-      "GitHub Actions",
-      "Jest",
-      "Cypress",
-    ],
+      "Designed and architected a learning platform, integrated authentication and data systems with NextAuth.js, Prisma, and PostgreSQL, and implemented CI/CD pipelines using GitHub Actions, Jest, and Cypress. Collaborated with a team to ensure security compliance and business logic integration.",
+    tools: ["NextAuth.js", "Prisma", "PostgreSQL", "CI/CD", "Jest", "Cypress"],
   },
   {
     title: "Contracted Full-Stack Software Engineer",
@@ -59,7 +52,7 @@ export const projects = [
       "An interactive data application designed to provide detailed and predictive nutritional information about fast food items using machine learning techniques. This application helps users make informed dietary choices by analyzing nutritional data, predicting nutritional content, and visualizing the results.",
     github:
       "https://github.com/boundy99/-Machine-Learning-Fast-Food-Nutrition-Analyzer",
-    website: null, // Replace with website link if available
+    website: null,
     reading: null,
     tools: [
       "Python",

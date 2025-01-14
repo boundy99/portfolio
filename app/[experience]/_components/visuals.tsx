@@ -30,8 +30,8 @@ export function Visuals({text, images}: VisualsProps) {
                 <Image
                   src={image}
                   alt={`Screenshot ${index + 1}`}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{objectFit: "cover"}}
                   className="rounded-lg shadow-md"
                 />
               </div>
@@ -39,7 +39,6 @@ export function Visuals({text, images}: VisualsProps) {
           ))}
         </div>
 
-        {/* Previous Button with ChevronLeft icon */}
         <button
           className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-full"
           onClick={goToPrev}
@@ -47,7 +46,6 @@ export function Visuals({text, images}: VisualsProps) {
           <ChevronLeft size={32} />
         </button>
 
-        {/* Next Button with ChevronRight icon */}
         <button
           className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-full"
           onClick={goToNext}

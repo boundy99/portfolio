@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { ProjectCardProps } from "@/types";
-import { Github, Globe, BookOpen } from "lucide-react";
-import { useMediaQuery } from "usehooks-ts";
+import {ProjectCardProps} from "@/types";
+import {Github, Globe, BookOpen} from "lucide-react";
+import {useMediaQuery} from "usehooks-ts";
 
 export default function ProjectCard({
   title,
@@ -46,17 +46,20 @@ export default function ProjectCard({
           {title}
         </h3>
         {isMobile && (
-          <div className="flex items-center justify-center gap-2 bg-green-200 p-2 rounded-md shadow-sm hover:bg-green-300 hover:cursor-pointer">
+          <div className="flex items-center justify-center gap-2">
             {website && (
               <Link
                 href={website}
-                className=" text-green-400   rounded-md shadow-sm"
+                className="text-green-400 bg-green-200 p-2 rounded-md shadow-sm hover:bg-green-300 hover:cursor-pointer"
               >
                 <Globe className="size-5" />
               </Link>
             )}
             {github && (
-              <Link href={github} className=" text-green-400 ">
+              <Link
+                href={github}
+                className="text-green-400 bg-green-200 p-2 rounded-md shadow-sm hover:bg-green-300 hover:cursor-pointer"
+              >
                 <Github size={20} />
               </Link>
             )}
