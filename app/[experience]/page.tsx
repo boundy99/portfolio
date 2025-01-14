@@ -1,11 +1,9 @@
 import ExperienceDetail from "./_components";
 
-export default async function Article({
-  params,
-}: {
-  params: {experience: string};
-}) {
-  const {experience} = await params;
+type tParams = Promise<{experience: string}>;
+
+export default async function Article(props: {params: tParams}) {
+  const {experience} = await props.params;
 
   return (
     <>
