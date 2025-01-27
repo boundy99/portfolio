@@ -15,7 +15,7 @@ export const experiences = [
     duration: "05/2023 - Now",
     responsibilities:
       "Developed a full-stack online ordering system using React, Node.js, MongoDB, and AWS EC2 for a restaurant in Gambia, driving a 15% increase in sales. Applied Scrum principles to plan and deliver features iteratively, ensuring timely releases and continuous improvement. Optimized database integration and implemented robust JWT-based authentication to ensure security and efficiency.",
-    tools: ["React", "Node.js", "MongoDB", "AWS EC2", "JWT"],
+    tools: ["React.js", "Node.js", "MongoDB", "AWS EC2", "JWT"],
   },
 ];
 
@@ -43,7 +43,7 @@ export const projects = [
     github: "https://github.com/boundy99/ndeyskitchen",
     website: "https://ndeyskitchen.com",
     reading: null,
-    tools: ["React", "Node.js", "MongoDB", "Jest", "AWS EC2"],
+    tools: ["React.js", "Node.js", "MongoDB", "Jest", "AWS EC2"],
   },
 
   {
