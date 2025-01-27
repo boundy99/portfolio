@@ -1,27 +1,27 @@
 export const experiences = [
   {
-    title: "Founder and Lead Developer",
+    title: "Software Engineer",
     company: "Omniscolaire",
     link: "/omniscolaire",
     duration: "09/2024 – Now",
     responsibilities:
-      "Designed and architected a learning platform, integrated authentication and data systems with NextAuth.js, Prisma, and PostgreSQL, and implemented CI/CD pipelines using GitHub Actions, Jest, and Cypress. Collaborated with a team to ensure security compliance and business logic integration.",
+      "Architected and designed a learning platform for educational institutions, focusing on enrollment, performance reporting, and course management. Led integration of authentication and data systems using NextAuth.js, Prisma, and PostgreSQL. Implemented Scrum processes and CI/CD pipelines with GitHub Actions to automate testing (Jest, Cypress) and deployments.",
     tools: ["NextAuth.js", "Prisma", "PostgreSQL", "CI/CD", "Jest", "Cypress"],
   },
   {
-    title: "Contracted Full-Stack Software Engineer",
+    title: "Full-Stack Software Engineer",
     company: "Ndey’s Kitchen",
     link: "https://ndeyskitchen.com",
     duration: "05/2023 - Now",
     responsibilities:
-      "Developed a full-stack web app using React, Node.js, MongoDB, and AWS EC2, optimizing order management and increasing sales by 35%. Implemented JWT-based user authentication and security practices.",
+      "Developed a full-stack online ordering system using React, Node.js, MongoDB, and AWS EC2 for a restaurant in Gambia, driving a 15% increase in sales. Applied Scrum principles to plan and deliver features iteratively, ensuring timely releases and continuous improvement. Optimized database integration and implemented robust JWT-based authentication to ensure security and efficiency.",
     tools: ["React", "Node.js", "MongoDB", "AWS EC2", "JWT"],
   },
 ];
 
 export const projects = [
   {
-    title: "Omniscolaire Dashboard",
+    title: "Omniscolaire",
     description:
       "An admin dashboard for managing educational institutions, including features like accounting, university management, and helpdesk support.",
     github: null,
@@ -39,7 +39,7 @@ export const projects = [
   {
     title: "Ndey's Kitchen Online Ordering",
     description:
-      "A responsive web application that streamlines order management for a restaurant, increasing sales by 35%.",
+      "A responsive web application that streamlines order management for a restaurant, increasing sales by 15%.",
     github: "https://github.com/boundy99/ndeyskitchen",
     website: "https://ndeyskitchen.com",
     reading: null,
